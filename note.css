@@ -1,0 +1,58 @@
+
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background-color: cadetblue;
+}
+.add{
+    position: fixed;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 90%;
+    margin-top: 100px;
+    background-color: rgb(137, 227, 137);
+    color: white;
+}
+.add:active{
+    transform: scale(0.9);
+}
+.note{
+    background-color: #8adb12;
+    box-shadow: 10,10,10px,4px rgba(0,0,0,0.1);
+    margin-left: 500px;
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+    overflow-y: scroll;
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+  
+  .note textarea {
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  .hidden{
+    display: none;
+  }
+ 
